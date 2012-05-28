@@ -1,0 +1,23 @@
+#popover_imageUpload {
+	font-size: 12px;
+	position: absolute;
+	z-index:100;
+	top: 100px;
+	left: 310px;
+	width: 650px;
+	display: none;
+}
+#popover_imageUpload .fileupload-content {
+	height: 350px;
+	overflow: auto;
+}
+
+#popover_imageUpload .close-btn {
+	padding: 6px;
+	float: right;
+	position: relative;
+	top: 2px;
+}
+.gecko #popover_imageUpload .close-btn {
+	top: 0px;
+}

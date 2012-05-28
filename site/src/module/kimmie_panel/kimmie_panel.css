@@ -1,0 +1,12 @@
+#kimmie_panel {
+	margin: 10px auto;
+	width: 190px;
+}
+
+#kimmie_panel .dateDiv {
+	text-align: center;
+	font-weight: bold;
+	color: #666;
+	font-size: 14px;
+	margin: 12px 0px;
+}

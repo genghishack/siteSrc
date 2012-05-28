@@ -1,0 +1,550 @@
+#outerContainer {
+    width: 848px;
+    position:relative;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+#mainContainer {
+    width: 848px;
+    background-color: #fff;
+}
+
+#contentContainer {
+	float: left;
+}
+
+div.mainContent {
+    float: left;
+    padding: 20px;
+    width: 607px;
+    min-height: 360px;
+	border-left: 1px solid #ccc;
+}
+
+div.module {
+/*  float: left; */
+/*  background-color: #eee; */
+}
+
+.red {
+    color: #D24140;
+}
+.green {
+    color: #85A03C;
+}
+.blue {
+    color: #3E647E;
+}
+.brown {
+    color: #71604F;
+}
+.orange {
+    color: #F58024;
+}
+.gray {
+    color: #666;
+}
+
+div.btnDiv div {
+    height: 18px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    float: left;
+}
+div.btnDiv span {
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+}
+div.btnDiv .leftEnd {
+    padding: 1px 7px 0px 10px;
+    background-position: left top;
+}
+div.btnDiv .rightEnd {
+    background-position: right top;
+    width: 3px;
+}
+
+div.btnDiv .brown {
+    background-image: url(../images/bkg_btn.png);
+}
+div.btnDiv .gray {
+    background-image: url(../images/bkg_btnGray.png);
+}
+/*drop down buttons*/
+div.btnDDL{
+    background:transparent url(/schwab/retail/research/resources/img/Bg.Buttons.png) no-repeat scroll right top;
+    color:#FFFFFF;
+    cursor:pointer;
+    display:inline-block;
+    font-size:12px;
+    font-weight:bold;
+    height:18px;
+    line-height:18px;
+    text-decoration:none;
+}
+div.btnDDL span {
+    background:transparent url(/schwab/retail/research/resources/img/Bg.Buttons.png) no-repeat scroll right top;
+    display:block;
+    height:18px;
+    line-height:18px;
+    margin-right:24px;
+    padding-left:8px;
+    text-align:left;
+    white-space:nowrap;
+}
+
+div.btnDDL2{background-position:right -140px;}
+div.btnDDL2 span{background-position:left -20px;}
+
+.ddmMenu {
+    background:#FFFFFF none repeat scroll right top;
+    border:1px solid #999999;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:240px;
+}
+.ddmMenu li a{
+    border-color:#E0E0E0;
+    border-style:solid;
+    border-width:0 1px 1px;
+    color:#666666;
+    display:block;
+    font-family:Arial;
+    font-size:11px;
+    padding:3px 5px;
+    text-decoration:none;
+    width:228px;
+}
+.ddmMenu li a:hover{
+    background-color:#F0F0F0;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+ul.green, ul.normal {
+    list-style-position: inside;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+ul.green {
+    list-style-image: url(../images/bulletGray.png);
+}
+ul.green li {
+    padding: 0px 0px 3px 0px;
+    color: #84A239;
+    font-weight: bold;
+    font-size: 12px;
+}
+ul.normal {
+    list-style-image: url(../images/bulletBlack.png);
+}
+ul.normal li {
+    padding: 0px 0px 0px 0px;
+    font-size: 12px;
+}
+div.blueBox {
+    background-color: #F8FBFA;
+    border: 1px solid #ccc;
+    width: 245px;
+    padding: 7px 9px;
+    margin-bottom: 12px;
+}
+
+div.iconClose {
+    height: 12px;
+    width: 11px;
+    background: transparent url(../images/icon_close.png) no-repeat scroll right top;
+    cursor:pointer;
+}
+div.iconMove {
+    height: 8px;
+    width: 14px;
+    background: transparent url(../images/icon_move.png) no-repeat scroll right top;
+    cursor:move;
+}
+
+div.iconError {
+    height: 14px;
+    width: 14px;
+    background: transparent url(../images/icon_error.png) no-repeat scroll left top;
+}
+div.iconCheck {
+    height: 14px;
+    width: 14px;
+    background: transparent url(../images/icon_checkGreen.png) no-repeat scroll left top;
+}
+div.iconPopup {
+    height: 11px;
+    width: 11px;
+    background: transparent url(../images/icon_popout.png) no-repeat scroll left top;
+}
+a.iconPopup {
+    background: transparent url(../images/icon_popout.png) no-repeat scroll right 50%;
+    padding-right:13px;
+}
+div.iconChart {
+    height: 13px;
+    width: 14px;
+    background: transparent url(../images/icon_chartPopout.png) no-repeat scroll left top;
+    cursor:pointer;
+}
+div.iconDownload {
+    height: 10px;
+    width: 13px;
+    background: transparent url(../images/icon_download.png) no-repeat scroll left top;
+    cursor:pointer;
+}
+div.iconExport {
+    height:8px;
+    width:10px;
+    background:transparent url(../images/icon_export.png) no-repeat scroll left top;
+    cursor:pointer;
+}
+a.iconExport {
+    background:transparent url(../images/icon_export.png) no-repeat scroll left 50%;
+    cursor:pointer;
+    padding-left:12px;
+}
+div.iconPdf {
+    height: 14px;
+    width: 13px;
+    background: transparent url(../images/icon_pdf2.png) no-repeat scroll left top;
+    cursor:pointer;
+}
+div.iconPdfSmall {
+    height: 12px;
+    width: 11px;
+    background: transparent url(../images/icon_pdf.png) no-repeat scroll left top;
+    cursor:pointer;
+}
+div.iconSchwubble {
+    width: 13px;
+    height: 11px;
+    background: transparent url(../images/icon_schwubble.png) no-repeat scroll left top;
+    cursor:pointer;
+}
+div.tabSet ul {
+    position: relative;
+    top: 1px;
+}
+div.tabSet ul li,
+div.tabSet ul li div {
+    float: left;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    white-space: nowrap;
+}
+div.tabSet ul li {
+    padding-left: 10px;
+    margin-right: 2px;
+    height: 23px;
+    background-position: top left;
+    cursor: pointer;
+}
+div.tabSet ul li div {
+    padding: 4px 10px 0px 0px;
+    height: 19px;
+    background-position: top right;
+}
+
+div.tabSet ul.header li,
+div.tabSet ul.header li div {
+    background-image: url(../images/headerTab_Off.png);
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+div.tabSet ul.header li.selected,
+div.tabSet ul.header li.selected div {
+    background-image: url(../images/headerTab_On.png);
+    color: #333;
+}
+
+div.tabSet ul.content li,
+div.tabSet ul.content li div {
+    background-image: url(../images/contentTab_Off.png);
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+div.tabSet ul.content li.selected,
+div.tabSet ul.content li.selected div {
+    background-image: url(../images/contentTab_On.png);
+    color: #333;
+}
+
+div.tabSet ul.chart li {
+    height: 21px;
+    padding-left: 9px;
+}
+div.tabSet ul.chart li div {
+    height: 18px;
+    padding-top: 3px;
+    padding-right: 9px;
+}
+div.tabSet ul.chart li,
+div.tabSet ul.chart li div {
+    background-image: url(../images/chartTab_Off.png);
+    color: #333;
+    font-weight: normal;
+    font-size: 11px;
+}
+div.tabSet ul.chart li.selected,
+div.tabSet ul.chart li.selected div {
+    background-image: url(../images/chartTab_On.png);
+    color: #333;
+    font-weight: bold;
+}
+
+div.chartLoader, div.mvloader {
+    position: absolute;
+    background: #fff url(../images/icon_loading.gif) no-repeat scroll center center;
+    z-index: 30;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+}
+/*for bar graphs*/
+div.barContainer {
+    float:left;
+    text-align:left;
+    margin-left:5px;
+}
+div.barContainer div.bar {
+    border-right:1px solid #5CA1C8;
+    font-size:1px;
+    height:8px;
+    width:0;
+}
+
+div.generalHopup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    color: #666;
+    display: none;
+    position: absolute;
+    width: 200px;
+    z-index:9999;
+}
+
+div.generalHopup .hopupShadow1 {
+    border-right: 1px solid #a3a2a2;
+    border-bottom: 1px solid #a3a2a2;
+}
+
+div.generalHopup .hopupShadow2 {
+    border: 1px solid #727272;
+}
+
+div.generalHopup .hopupTitle {
+    background-color: #659ec9;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+div.generalHopup .hopupContent {
+    padding: 8px 8px 0px;
+}
+div.generalHopup .hopupContent p {
+    padding-bottom: 8px;
+}
+
+#hopupBaseballCard {
+    border: none;
+    width: 256px;
+}
+
+div.tooltip1 {
+    background:#FFFFFF none repeat scroll 0 0;
+    border-color:#C2B183 #AE9E8E #AE9E8E #C2B183;
+    border-style:solid;
+    border-width:1px;
+    font-size:11px;
+    padding:4px;
+}
+span.truncated{
+    cursor:pointer;
+}
+#contentMain .expandCollapseDiv {
+    border: #ccc solid 1px;
+    margin-top: 15px;
+}
+#contentMain .expandCollapseDiv .subNav {
+    height: 25px;
+    font-size: 12px;
+    border-top: #d4d4d4 solid 1px;
+}
+#contentMain .expandCollapseDiv .sectionHead {
+    height: 20px;
+    padding: 6px 0px 0px 10px;
+    color: #666;
+    font-weight: bold;
+    background: transparent url(../images/bkg_gradSm_1w.png) repeat-x scroll left top;
+    cursor:pointer;
+}
+#contentMain .expandCollapseDiv .sectionHead div {
+    background: transparent url(../images/carrot_down_right.gif) no-repeat scroll 0 -9px;
+    height:7px;
+    width:7px;
+    margin:4px 5px 0 0;
+    float:left;
+    overflow:hidden;
+}
+#contentMain .expandCollapseDiv .sectionHead div.selected {
+    background: transparent url(../images/carrot_down_right.gif) no-repeat scroll left top;
+    height:7px;
+    width:7px;
+}
+#contentMain .expandCollapseDiv .sectionContent,
+#contentMain .expandCollapseDiv .sectionIntro {
+    padding: 0px 15px 9px;
+    border-top: #D4D4D4 solid 1px;
+}
+#contentMain .expandCollapseDiv .sectionContent p,
+#contentMain .expandCollapseDiv .sectionIntro p {
+    margin-top: 9px;
+}
+#contentMain .expandCollapseDiv ul {
+    list-style-position: outside;
+    margin-left: 15px;
+}
+
+#loaderMask {
+    height: 0px;
+    width: 0px;
+    top: 0px;
+    left: 0px;
+    
+    padding:0;
+    position:absolute;
+    z-index:2;
+    
+    opacity:.6;
+    /* other opacity styles are not recognized by FBML */
+    
+    background:#FFFFFF url(http://lib/img/ajax-loader.gif) no-repeat scroll center center;
+}
+
+#overlay {
+    display: none;
+    background: #000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    z-index: 100;
+    
+    opacity: .75;
+}
+
+#lightBox {
+	display: none;
+	background-color: rgba(200, 200, 200, .75);
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	z-index: 101;
+}
+#lightBox .content {
+	position: relative;
+	padding: 10px;
+	background: #fff;
+	width: 600px;
+	margin: 50px auto;
+}
+.lightBox body {
+	overflow: hidden;
+	margin-right; 15px;
+}
+.lightBox #lightBox {
+	display: block;
+}
+
+#Debug {
+	width: 100%;
+	position: relative;
+}
+#Debug .inner {
+	position: relative;
+	margin: 0px auto;
+	width: 800px;
+}
+
+#VarDisplay {
+	margin: 0px 0px 10px;
+}
+#VarDisplay .item {
+	border: 1px dashed #666;
+}
+#VarDisplay .title {
+	cursor: pointer;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+}
+#VarDisplay .var {
+	padding: 3px;
+	font-size: 11px;
+}
+
+#Performance {
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 1px;
+	float: left;
+	margin: 0px 10px;
+}
+#Performance caption {
+	text-align: center;
+}
+#Performance th {
+	border: 1px solid black;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px;
+}
+#Performance td {
+	font-size: 11px;
+	color: #666;
+	border: 1px solid #666;
+	padding: 3px;
+}
+
+#CompInfo {
+	float: right;
+	margin: 0px 10px;
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+#CompInfo h4 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+}
+#CompInfo caption {
+	text-align: center;
+}
+#CompInfo td {
+	font-size: 11px;
+	font-weight: normal;
+	color: #666;
+	border: 1px solid #666;
+	padding: 3px;
+}

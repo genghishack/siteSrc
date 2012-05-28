@@ -1,0 +1,65 @@
+#header {
+    font-size: 18px;
+    padding: 20px 0px 15px;
+    border-bottom: 1px solid #ccc;
+}
+#header .logo {
+    width: 190px;
+    height: 45px;
+    float: left;
+    background: transparent url(../../img/logo_siteSrc.png) scroll left top no-repeat;
+    cursor: pointer;
+}
+#header .menu {
+    float: right;
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+}
+#header .menuText {
+	color: #999;
+}
+#header .menuUser {
+	color: #666;
+	font-weight: bold;
+}
+#header .menuItem {
+    color: #0000CC;
+    text-decoration: none;
+    cursor: pointer;
+}
+#header .menuItem:hover {
+    text-decoration: underline;
+}
+#header .menuDivider {
+    padding: 0px 2px;
+}
+#header .loginDiv {
+    position: absolute;
+    top: 65px;
+    right: 40px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+	padding: 10px;
+	z-index: 100;
+}
+#header .loginDiv .inputGroup {
+	margin: 0px 0px 10px;
+}
+#header .loginDiv label {
+	float: right;
+	font-size: 12px;
+	margin: 2px 2px 0px 0px;
+}
+#header .loginDiv input {
+    float: right;
+    clear: both;
+    display: block;
+}
+#header .loginDiv input[type="text"],
+#header .loginDiv input[type="password"] {
+    width: 100px;
+}
+#header .loginDiv input[type="submit"] {
+	cursor: pointer;
+}

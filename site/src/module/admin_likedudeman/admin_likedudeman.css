@@ -1,0 +1,109 @@
+#admin_likedudeman {
+}
+
+#admin_likedudeman .row {}
+#admin_likedudeman .cell {
+	float: left;
+	padding: 5px;
+}
+#admin_likedudeman .cell input {
+	font-size: 12px;
+}
+#admin_likedudeman .position input {
+	width: 25px;
+}
+#admin_likedudeman .dateDrawn {
+	position: relative;
+	top: -11px;
+}
+#admin_likedudeman .dateDrawn input {
+	width: 65px;
+}
+#admin_likedudeman .dateDrawn img {
+	position: relative;
+	top: 6px;
+	margin-left: 2px;
+}
+#admin_likedudeman .caption textarea {
+	height: 70px;
+	width: 250px;
+}
+#admin_likedudeman .thumbnail img {
+	width: 80px;
+}
+#admin_likedudeman .pagesize input {
+	width: 15px;
+}
+#admin_likedudeman .paginator {
+	position: relative;
+	width: 140px;
+	margin: 0px auto;
+}
+#admin_likedudeman .arrow {
+	float: left;
+}
+#admin_likedudeman .arrow a[page=""] {
+	visibility: hidden;
+}
+#admin_likedudeman .description {
+	float: left;
+	text-align: center;
+	width: 128px;
+}
+#admin_likedudeman .form .thumbnail {
+	float: left;
+}
+#admin_likedudeman .form .inputFields {
+	float: left;
+	margin: 0px 10px;
+}
+#admin_likedudeman .form .buttons {
+	float: left;
+}
+#admin_likedudeman .comic_preview {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #999;
+	margin: 0px 20px 20px 0px;
+	float: left;
+	
+	/* "future functionality" styling */
+	height: 40px;
+	padding: 130px 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#admin_likedudeman .comic_form {
+	float: left;
+}
+
+#admin_likedudeman .form_inputSet {
+	margin-bottom: 15px;
+}
+
+#admin_likedudeman .form_inputSet label {
+	font-weight: bold;
+	display: block;
+}
+
+#input_date_drawn {
+	width: 150px;
+}
+#input_title {
+	width: 275px;
+}
+#input_caption {
+	width: 280px;
+	height: 100px;
+}
+
+#ui-datepicker-div {
+	font-size: 11px;
+}
+
+#admin_likedudeman_iframe {
+	width: 0px;
+	height: 0px;
+	border: none;
+}
