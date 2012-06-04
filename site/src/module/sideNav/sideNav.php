@@ -22,8 +22,6 @@ class sideNav extends Module
 		$this->navList = array(
 			 'index'            => array('label' => 'Home')
 			,'likedudeman'      => array('label' => 'Like, Dude Man')
-			,'genghishack_page' => array('label' => 'Genghishack')
-			,'kimmie'           => array('label' => 'Kimmie')
 			,'admin'	        => array(
 				 'label'	=> 'Admin'
 				,'expand'   => true
@@ -41,8 +39,6 @@ class sideNav extends Module
 //				)
 //				,'expand' => true
 //			)
-//			,'about'          => array('label' => 'About Us')
-//			,'contact'        => array('label' => 'Contact Us')
 //			,'whatICanDo'     => array(
 //				 'label' => 'Look What I Can Do'
 //				,'children' => array(
