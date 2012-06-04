@@ -64,6 +64,7 @@ class Site extends Site_Class
 		
 		require_once ('layout/Layout1.php'); 
 		require_once ('layout/Layout2.php'); 
+		require_once ('layout/Layout3.php'); 
 	}
 	
 	public function init()

@@ -1,0 +1,58 @@
+#topNav {
+    clear: left;
+    float: left;
+    background-color: #fff;
+    width: 848px;
+    color: #000067;
+    padding: 0px;
+    border-bottom: 1px solid #ccc;
+}
+#topNav li {
+    cursor: pointer;
+}
+
+#topNav li.level1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 10px;
+    float: left;
+}
+#topNav li.level1:first-child {
+    border-top: none;
+}
+
+#topNav li.level2 {
+    font-size: 12px;
+    font-weight: normal;
+    text-indent: 30px;
+    line-height: 15px;
+}
+
+#topNav li.selected, 
+#topNav li:hover {
+    background-color: #eee;
+}
+
+#topNav li.selected ul li,
+#topNav li:hover ul li {
+    background-image: none;
+    background-color: transparent;
+}
+
+#topNav .bragging {
+	margin-top: 100px;
+}
+
+#topNav .bragging .text {
+	font-size: 12px;
+	text-align: center;
+}
+
+#topNav .bragging .mensaLogo {
+	background: transparent url(/src/img/mensaMember_small.jpg) no-repeat scroll left top;
+	height: 80px;
+	width: 80px;
+	margin: 15px auto;
+}
