@@ -1,7 +1,7 @@
 <?php 
-class main extends Module
+class home extends Module
 {
-	protected $name = 'main';
+	protected $name = 'home';
     
 	public function init()
 	{

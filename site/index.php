@@ -8,7 +8,7 @@ class Content extends Layout2
     function __construct()
     {
         parent::__construct();
-        $this->registerModule('main');
+        $this->registerModule('home');
     }
     
     public function render()
@@ -18,7 +18,7 @@ class Content extends Layout2
 		$bodyContent = <<<EOT
 		
 {$this->topContent}
-{$this->main}
+{$this->home}
 {$this->bottomContent}
 
 EOT;
